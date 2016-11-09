@@ -13,11 +13,13 @@ class CommandLineTests: XCTestCase {
 
         switch result {
         case .output(let output):
-            print(output)
             runExpectation.fulfill()
+            print(output)
         case .error(let message):
             print("Error: \(message)")
         }
+
+        waitForExpectations(timeout: 1.0)
     }
 
     static var allTests : [(String, (CommandLineTests) -> () throws -> Void)] {
