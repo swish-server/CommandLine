@@ -6,13 +6,6 @@ public typealias Process = Task
 
 public typealias Command = String
 
-public enum CommandLineResult {
-
-    case output(String)
-    case error(String)
-
-}
-
 /// Ref.: https://github.com/spotify/HubFramework/blob/master/live/sources/CommandLine.swift
 public struct CommandLine {
 
