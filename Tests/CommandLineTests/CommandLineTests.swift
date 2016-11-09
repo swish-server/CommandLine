@@ -22,7 +22,7 @@ class CommandLineTests: XCTestCase {
 
     static var allTests : [(String, (CommandLineTests) -> () throws -> Void)] {
         return [
-            ("testRunCommand", testRunCommand)
+            ("testRunCommand", testRunCommand),
         ]
     }
 
