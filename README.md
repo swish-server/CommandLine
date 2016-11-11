@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/swish-server/CommandLine.svg?branch=master)](https://travis-ci.org/swish-server/CommandLine)
+[![Swift](https://img.shields.io/badge/Swift-3.0-lightgray.svg)](https://swift.org)
+[![Swift Package Manager compatible](https://img.shields.io/badge/SPM-compatible-blue.svg?style=flat)](https://swift.org/package-manager/)
+
 # CommandLine
 
 🔫 Wrapper for the Command Line to fire commands.
