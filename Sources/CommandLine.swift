@@ -6,8 +6,9 @@ public typealias Process = Task
 
 public typealias Command = String
 
-/// Ref.: https://github.com/spotify/HubFramework/blob/master/live/sources/CommandLine.swift
 public struct CommandLine {
+
+    public init() { }
 
     public func execute(_ command: Command, with arguments: [String] = []) -> CommandLineResult {
         let process = Process()
